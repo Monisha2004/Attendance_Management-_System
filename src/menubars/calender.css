@@ -1,0 +1,67 @@
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(60, 115, 255);
+    max-width:1000px;
+    margin-left: 300px;
+    margin-top: 10px;
+    border: 5px solid rgb(211, 252, 165);
+    border-radius: 5%;
+    margin-bottom: 30px;
+
+
+  }
+  
+  .calendar-wrapper {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .month-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .month-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .month-title {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: #9a9191;
+    max-width: 165px;
+    margin-bottom: 10px;
+  }
+  
+  .dates-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .calendar-date {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .present {
+    background-color: #b7e6b7;
+  }
+  
+  .absent {
+    background-color: #ff9999;
+  }
+  

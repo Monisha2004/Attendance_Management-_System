@@ -1,0 +1,49 @@
+.about-us-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(118, 116, 130);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: cursive;
+   
+  }
+  .about-page{
+    
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ0nY9iUZW7VWuJT3f0N1sy6zDEJek9AwnoA&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    /* background-color: black; */
+  }
+  .about-us-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+  
+  .about-us-container ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-container ul li {
+    margin-left: 20px;
+  }
+  
+ 
+  
+  

@@ -1,0 +1,43 @@
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .icons-containers {
+    display: flex;
+  }
+  
+  .icon-links {
+    text-decoration: none;
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  
+  .icons svg {
+    font-size: 200px; /* Increase the icon size */
+    background-color: black; /* Set the background color of the icon */
+    color: white; /* Set the icon color */
+    border-radius: 50%; /* Add a border-radius for rounded icons */
+    padding: 25px; /* Adjust the padding as needed */
+    filter: brightness(200%); /* Increase the brightness of the white color */
+  }
+  
+  .icons span {
+    margin-top: 10px;
+    color: black; /* Set the color of the icon labels */
+  }
+  
+  /* Add hover styles for the icons */
+  .icons:hover svg {
+    background-color: white; /* Set the background color on hover */
+    color: black; /* Set the icon color on hover */
+    filter: brightness(100%); /* Reset the brightness on hover */
+  }

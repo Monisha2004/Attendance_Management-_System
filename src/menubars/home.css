@@ -1,0 +1,68 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0%;
+}
+
+.home-background {
+  background-image: url('https://img.freepik.com/free-photo/gradient-dark-blue-futuristic-digital-grid-background_53876-129728.jpg?w=1380&t=st=1689091107~exp=1689091707~hmac=39ea32ae72c6604d8e96827f1ae509bcf224d48fd4865ca4a6906cd26b60c90f');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.navbar {
+  z-index: 1;
+}
+
+.carousel {
+  z-index: 2;
+}
+
+.home-content {
+  font-family: cursive;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ede9ea;
+}
+
+.animated-text {
+  position: relative;
+  font-size: 24px;
+  animation: slideAnimation 6s linear infinite;
+  z-index: 999;
+}
+
+@keyframes slideAnimation {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.flash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flashAnimation 1s infinite;
+}
+
+@keyframes flashAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,180 @@
+.navbar {
+    background-color: #424243b7;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 0px;
+  }
+  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .nav-menu {
+    background-color: #4c4b4f;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: #f5f3f3;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .nav-text a:hover {
+    background-color: #0f0e0e;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    background-color: #404e4e;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }
+  .horizontal-list {
+    list-style-type: none;
+    padding: 100;
+    margin: 0;
+    margin-left: 1000px;
+  }
+  
+  .horizontal-list li {
+    display: inline-block; /* or display: inline; */
+    margin-right: 30px; /* Add spacing between items */
+  }
+  .horizontal-list li a{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 16px;
+    padding: 7px 7px;
+    border-radius: 4px;
+    background-color: #0e0d0c;
+    transition: background-color 0.3s ease;
+  }
+  .horizontal-list li a:hover {
+    background-color: #e40f0f;
+  }
+  /* Rest of the CSS code... */
+
+.dropdown-menu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f5f5f5;
+}
+
+/* Rest of the CSS code... */
+
+/* Rest of the CSS code... */
+
+.dropdown-container {
+  position: relative;
+}
+
+.profile-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 1;
+}
+
+.dropdown-container:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #f1ecec;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+  background-color: #de0e0e;
+}
+
+/* Updated CSS code with specific padding */
+
+.dropdown-menu .my-profile-link,
+.dropdown-menu .settings-link {
+  padding: 1.75rem 1rem;
+}
+
+.dropdown-menu a.my-profile-link {
+  padding-top: 0.75rem;
+  padding-bottom: 0.25rem;
+}
+
+.dropdown-menu a.settings-link {
+  padding-top: 1.25rem;
+  padding-bottom: 1.75rem;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar-icon:first-child {
+  margin-left:1050px;
+}
